@@ -153,7 +153,9 @@ nav h1 a {
 .filter-options {
   align-items: center;
   background-color: #3397DB;
-  height: 22vh;
+  display: flex;
+  flex-direction: column;
+  height: 10em;
   padding: .5em 0 0 1em;
   width: 100%;
 }
@@ -164,8 +166,7 @@ nav h1 a {
   font-weight: normal;
   line-height: 1;
   margin: 0 20px;
-  /*padding-bottom: 2em;*/
-  /*padding-top: 15px;*/
+  
 }
 
 .filter-options select {
@@ -216,7 +217,7 @@ nav h1 a {
 }
 
 #restaurants-list li h1 {
-  color: #f18200;
+  color: #ffe5db;
   font-family: Arial, sans-serif;
   font-size: 14pt;
   font-weight: 200;
@@ -295,7 +296,7 @@ nav h1 a {
 /*code above was added by Danny*/
 
 #restaurant-name {
-  color: #f18200;
+  color: #ffe5db;
   font-family: Arial, sans-serif;
   font-size: 20pt;
   font-weight: 200;
