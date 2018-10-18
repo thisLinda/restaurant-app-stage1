@@ -12,6 +12,7 @@
 <body>
   <div class="container">
     <header>
+      <a href="#filter-options" class="skip">Skip to content</a>
       <nav>
         <h1><a aria-label="home" tabindex="1" href="/">Restaurant Reviews</a></h1>
       </nav>
@@ -22,12 +23,12 @@
         <div id="map"></div>
       </section>
       <section>
-        <div class="filter-options">
+        <div id="filter-options" class="filter-options">
           <h2>Filter Results</h2>
-          <select role="tablist" tabindex="2" id="neighborhoods-select" name="neighborhoods" onchange="updateRestaurants()">
+          <select role="tablist" tabindex="2" id="neighborhoods-select" name="neighborhoods" onchange="updateRestaurants()" aria-label="Select">
             <option value="all">All Neighborhoods</option>
           </select>
-          <select role="tablist" tabindex="2" id="cuisines-select" name="cuisines" onchange="updateRestaurants()">
+          <select role="tablist" tabindex="2" id="cuisines-select" name="cuisines" onchange="updateRestaurants()" aria-label="Select">
             <option value="all">All Cuisines</option>
           </select>
         </div>

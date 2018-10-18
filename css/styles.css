@@ -1,6 +1,29 @@
 @charset "utf-8";
 /* CSS Document */
 
+.skip {
+  background-color: white;
+  color: black;
+  display: block;
+  height: 1px;
+  left: -1000px;
+  overflow: hidden;
+  position: absolute;
+  text-align: left;
+  top: -1000px;
+  width: 1px;
+}
+
+a.skip:active,
+a.skip:focus,
+a.skip:hover {
+  left: 0;
+  top: 0;
+  width: auto;
+  height: auto;
+  overflow: visible;
+}
+
 body,
 td,
 th,
@@ -31,7 +54,7 @@ a {
 
 a:hover,
 a:focus {
-  color: #3397db;
+  color: #007dbb;
   text-decoration: none;
 }
 
@@ -64,13 +87,6 @@ nav,
 section {
   display: block;
 }
-
-/*.container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  min-height: 100vh;
-}*/
 
 #maincontent {
   background-color: #f3f3f3;
@@ -154,7 +170,7 @@ nav h1 a {
 /* ====================== Restaurant Filtering ====================== */
 .filter-options {
   align-items: center;
-  background-color: #3397DB;
+  background-color: #0075a4;
   display: flex;
   flex-direction: column;
   height: 10em;
@@ -188,6 +204,7 @@ nav h1 a {
 #restaurants-list {
   background-color: #f3f3f3;
   box-sizing: border-box;
+  color: white;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -198,7 +215,7 @@ nav h1 a {
 }
 
 #restaurants-list li {
-  background-color: rgb(158, 127, 127);
+  background-color: #204442;
   border: 2px solid #ccc;
   display: flex;
   flex-direction: column;
@@ -231,12 +248,13 @@ nav h1 a {
 }
 
 #restaurants-list p {
+  color: white;
   font-size: 11pt;
   margin: 0;
 }
 
 #restaurants-list li a {
-  background-color: orange;
+  background-color: #2E343B;
   border-bottom: 3px solid #eee;
   color: #fff;
   display: inline-block;
@@ -250,13 +268,6 @@ nav h1 a {
 
 /* ====================== Restaurant Details ====================== */
 
-/*.inside {
-  display: flex;
-  flex-direction: row;
-  flex-flow: wrap;
-  width: 100%;
-}*/
-
 .inside {
   display: flex;
   flex-flow: row wrap;
@@ -269,25 +280,14 @@ nav h1 a {
   z-index: 1000;
 }
 
-/*.inside header {
-  width: 100%;
-}*/
-
 .inside #map-container {
   background: blue none repeat scroll 0 0;
   height: 75vh;
   position: fixed;
   right: 0;
-  top: 80px;
+  top: 120px;
   width: 50%;
 }
-
-/*.inside #map-container {
-  background: blue none repeat scroll 0 0; Danny doesn't have background
-  height: 300 px;
-  position: relative;
-  width: 100%;
-}*/
 
 .inside #map {
   background-color: #ccc;
@@ -319,17 +319,6 @@ nav h1 a {
   /*z-index from Danny's code
 }*/
 
-/*#restaurant-container {
-  box-sizing: border-box;
-  display: flex;
-  justify-items: center;
-  justify-self: center;
-  position: relative;
-  width: 100%;
-}*/
-
-/*code above was added by Danny*/
-
 #restaurant-name {
   color: #ffe5db;
   font-family: Arial, sans-serif;
@@ -343,30 +332,12 @@ nav h1 a {
   text-align: center;
 }
 
-/*#restaurant-name {
-  color: #ffe5db;
-  font-family: Arial, sans-serif;
-  font-size: 20pt;
-  font-weight: 200;
-  letter-spacing: 0;
-  line-height: 1.1;
-  margin: 15px 0 30px;
-  text-transform: uppercase;
-  text-align: center;
-}*/
-
 #restaurant-img {
   display: flex;
   flex-flow: column wrap;
   margin: 5px 5px;
   width: 85%;
 }
-
-/*#restaurant-img {
-  margin: 0 auto;
-  width: 100%;
-}*/
-
 
 #restaurant-address {
   font-size: 12pt;
@@ -398,15 +369,6 @@ nav h1 a {
   width: 50%;
 }
 
-/*#restaurant-container,
-#reviews-container {
-  border-bottom: 1px solid #d9d9d9;
-  border-top: 1px solid #fff;
-  box-sizing: border-box;
-  padding: 40px 40px 30px 15px;
-  width: 100%;
-}*/
-
 #reviews-container {
   padding: 30px 40px 80px;
 }
@@ -426,11 +388,6 @@ nav h1 a {
   padding: 0;
 }
 
-/*#reviews-list {
-  margin: 0;
-  padding: 0;
-}*/
-
 #reviews-list li {
   background-color: #fff;
   border: 2px solid #f3f3f3;
@@ -442,17 +399,6 @@ nav h1 a {
   position: relative;
   width: 85%;
 }
-
-/*#reviews-list li {
-  background-color: #fff;
-  border: 2px solid #f3f3f3;
-  display: block;
-  list-style-type: none;
-  margin: 0 0 30px;
-  overflow: hidden;
-  padding: 0 20px 20px;
-  position: relative;
-}*/
 
 #reviews-list li p {
   margin: 0 0 10px;
