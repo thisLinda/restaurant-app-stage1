@@ -1,7 +1,5 @@
 # Udacity Front-End Nanodegree Project
 
-## /_TODO: hyperlinks for download, clone, Udacity_/
-
 #### Restaurant Reviews
 
 In addition to Udacity lessons I supplemented my learning with the following. Please note that I used the code written by Alexandro Perez for service workers in my project (credited within the code as well):
@@ -24,9 +22,9 @@ https://alexandroperez.github.io/mws-walkthrough
 
 https://developers.google.com/web/fundamentals/instant-and-offline/offline-cookbook/ referenced by Alexandro Perez https://alexandroperez.github.io/mws-walkthrough/?1.23.registering-service-worker-and-caching-static-assets
 
-##FYI
+## FYI
 
-An HTTP server is required to open this file...may I suggest using Visual Studio Code? It makes coding life much more simple. Download or clone the repository.
+An HTTP server is required to open this file...may I suggest using Visual Studio Code? It makes coding life much more simple. Download or clone the repository https://github.com/thisLinda/restaurant-app-stage1.
 
 ## Project Overview: Stage 1 (Information below is instruction to the Udacity student for completing the project)
 
