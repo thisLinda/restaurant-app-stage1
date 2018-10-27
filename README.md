@@ -1,16 +1,34 @@
-# Mobile Web Specialist Certification Course
+# Udacity Front-End Nanodegree Project
 
----
+## /_TODO: hyperlinks for download, clone, Udacity_/
 
-#### _Three Stage Course Material Project - Restaurant Reviews_
+#### Restaurant Reviews
+
+In addition to Udacity lessons I supplemented my learning with the following. Please note that I used the code written by Alexandro Perez for service workers in my project (credited within the code as well):
+
+https://matthewcranford.com/restaurant-reviews-app-walkthrough
+
+https://www.youtube.com/watch?v=ksXwaWHCW6k&t=11s service worker
+
+https://www.youtube.com/user/TechGuyWeb/search?query=service+worker
+
+https://www.youtube.com/results?search_query=service+worker+fun+fun+function
+
+https://www.youtube.com/watch?v=wx4lQNGTf1s service workers
+
+https://itnext.io/service-workers-your-first-step-towards-progressive-web-apps-pwa-e4e11d1a2e85
 
 https://www.bignerdranch.com/blog/web-accessibility-skip-navigation-links/ assist with skip link code
 
-https://alexandroperez.github.io/mws-walkthrough/?1.21.aria-links aria links javascript
+https://alexandroperez.github.io/mws-walkthrough
 
-https://alexandroperez.github.io/mws-walkthrough/?1.22.aria-live-regions aria live MAYBE NOT, USING SKIP LINKS?????
+https://developers.google.com/web/fundamentals/instant-and-offline/offline-cookbook/ referenced by Alexandro Perez https://alexandroperez.github.io/mws-walkthrough/?1.23.registering-service-worker-and-caching-static-assets
 
-## Project Overview: Stage 1
+##FYI
+
+An HTTP server is required to open this file...may I suggest using Visual Studio Code? It makes coding life much more simple. Download or clone the repository.
+
+## Project Overview: Stage 1 (Information below is instruction to the Udacity student for completing the project)
 
 For the **Restaurant Reviews** projects, you will incrementally convert a static webpage to a mobile-ready web application. In **Stage One**, you will take a static design that lacks accessibility and convert the design to be responsive on different sized displays and accessible for screen reader use. You will also add a service worker to begin the process of creating a seamless offline experience for your users.
 
