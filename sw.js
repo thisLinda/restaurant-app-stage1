@@ -1,4 +1,4 @@
-/*all service worker code credit to Alexandro Perez https://alexandroperez.github.io/mws-walkthrough/?1.23.registering-service-worker-and-caching-static-assets*/
+/*all service worker code credit to Alexandro Perez https://alexandroperez.github.io/mws-walkthrough*/
 
 const appName = "restaurant-review-app";
 const staticCacheName = appName + "v1.0";
@@ -40,9 +40,9 @@ self.addEventListener("activate", function (e) {
     );
 });
 
-self.addEventListener("fetch", function(e) {
+self.addEventListener("fetch", function (e) {
     e.respondWith(
-        caches.match(event.request).then(function(response) {
+        caches.match(event.request).then(function (response) {
             return response || fetch(e.request);
         })
     );

@@ -24,7 +24,7 @@ https://developers.google.com/web/fundamentals/instant-and-offline/offline-cookb
 
 ## FYI
 
-An HTTP server is required to open this file...may I suggest using Visual Studio Code? It makes coding life much more simple. Download or clone the repository https://github.com/thisLinda/restaurant-app-stage1.
+An HTTP server is required to open this file...may I suggest using Visual Studio Code? It makes coding life much more simple, no dependencies! Download or clone the repository https://github.com/thisLinda/restaurant-app-stage1.
 
 ## Project Overview: Stage 1 (Information below is instruction to the Udacity student for completing the project)
 
