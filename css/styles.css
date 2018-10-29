@@ -90,7 +90,6 @@ section {
 
 #maincontent {
   background-color: #f3f3f3;
-  /*position: absolute;*/
   min-height: 100%;
 }
 
@@ -271,6 +270,12 @@ nav h1 a {
 .inside {
   display: flex;
   flex-flow: row wrap;
+}
+
+.inside #footer {
+  bottom: 0;
+  position: absolute;
+  width: 100%;
 }
 
 .inside header {
