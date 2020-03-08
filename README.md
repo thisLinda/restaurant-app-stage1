@@ -26,6 +26,8 @@ https://developers.google.com/web/fundamentals/instant-and-offline/offline-cookb
 
 An HTTP server is required to open this file...may I suggest using Visual Studio Code? It makes coding life much more simple, no dependencies! Download or clone the repository https://github.com/thisLinda/restaurant-app-stage1.
 
+Post submission note: Google Maps API key has been removed from the project. To view the project with complete functionality insert your key.
+
 ## Project Overview: Stage 1 (Information below is instruction to the Udacity student for completing the project)
 
 For the **Restaurant Reviews** projects, you will incrementally convert a static webpage to a mobile-ready web application. In **Stage One**, you will take a static design that lacks accessibility and convert the design to be responsive on different sized displays and accessible for screen reader use. You will also add a service worker to begin the process of creating a seamless offline experience for your users.
